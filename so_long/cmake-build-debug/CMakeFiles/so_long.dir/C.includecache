@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mjerrica/CLionProjects/so_long/main.c
+so_long.h
+/Users/mjerrica/CLionProjects/so_long/so_long.h
+stdio.h
+-
+
+/Users/mjerrica/CLionProjects/so_long/so_long.h
+unistd.h
+-
+stdlib.h
+-
+fcntl.h
+-
+
